@@ -65,8 +65,10 @@ export default {
     };
   },
 
-  Create(){
+  beforeCreate(){
+    console.log("dirigir a auth");
     this.$store.dispatch('autoLogin') ? this.$router.push({name:"Auth"}) : false;  
+    
   },
   methods: {
     async loginUser() {

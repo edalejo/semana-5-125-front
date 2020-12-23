@@ -54,7 +54,7 @@ export default {
   },
   beforeMount(){
     this.getUserDetails();
-    // this.$store.dispatch("autoLogin");
+    this.$store.dispatch("autoLogin");
   },
   created() {
       // this.getUserDetails();

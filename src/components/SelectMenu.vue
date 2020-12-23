@@ -52,9 +52,9 @@ export default {
   data: () => ({
     selectedItem: 0,
     items: [
+      { text: "Inicio", icon: "mdi-arrow-up", link: "/auth/" ,estado: 1},
       { text: "Home", icon: "mdi-home", link: "/" ,estado: 1},
       { text: "Usuarios", icon: "mdi-account-group", link: "/auth/usuarios" ,estado: 1},
-      { text: "Inicio", icon: "mdi-arrow-up", link: "/auth/" ,estado: 1},
       { text: "Categorias", icon: "mdi-alpha-c-box", link: "/auth/categorias", estado: 1},
       { text: "Articulos", icon: "mdi-alpha-a-box", link: "/auth/articulos" ,estado: 1},
     ],
